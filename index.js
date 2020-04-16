@@ -64,7 +64,7 @@ function addUpTo(array, index = 0)
 
   } else {
     var currentIndex = array.length - 1;
-    console.log(currentIndex);
+    console.log(currentIndex - 1);
 
     return array[currentIndex] + addUpTo(array.slice(0, currentIndex - 1));
 
