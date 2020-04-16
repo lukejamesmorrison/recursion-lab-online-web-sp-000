@@ -56,8 +56,9 @@ function addUpTo(array, index = 0)
   if(array.length > index + 1)
   {
     array = array.slice(0, index + 1);
-    console.log(array);
+    console.log(`Index Check: ${array}`);
   }
+  
 
   if(array.length === 0)
   {
