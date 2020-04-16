@@ -62,9 +62,9 @@ function addUpTo(array, index)
     return 0;
 
   } else {
-    var nextIndex = array.length - 1;
+    var currentIndex = array.length - 1;
 
-    return array[array.length - 1] + addUpTo(array.slice(0, array.length - 1, index));
+    return array[currentIndex - 1] + addUpTo(array.slice(0, currentInde, index));
 
   }
 }
