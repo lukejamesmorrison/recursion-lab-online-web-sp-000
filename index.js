@@ -51,7 +51,7 @@ addUpTo([1, 4, 5, 3], 2);
 
 function addUpTo(array, index = 0)
 {
-  // console.log(index);
+  console.log(array.length, index);
 
   if(array.length > index + 1)
   {
