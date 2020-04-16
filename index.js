@@ -68,7 +68,7 @@ function addUpTo(array, index = 0)
     // console.log(array.length);
     var nextIndex = array.length - 1;
 
-    return array[index] + addUpTo(array.slice(0, nextIndex));
+    return array[index] + addUpTo(array.slice(0, array.length - 1, index));
 
   }
 }
