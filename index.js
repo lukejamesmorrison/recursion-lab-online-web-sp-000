@@ -58,7 +58,6 @@ function addUpTo(array, index)
 
   if(array.length > 0)
   {
-    console.log(array.slice(0, array.length - 1));
     return array[array.length - 1] + addUpTo(array.slice(0, array.length - 1));
   } else {
     return 0;
