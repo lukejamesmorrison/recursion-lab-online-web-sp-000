@@ -58,8 +58,6 @@ function addUpTo(array, index)
 
   console.log(array);
 
-  return;
-
   if(array.length > 0)
   {
     console.log(array[0]);
