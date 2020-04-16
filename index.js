@@ -56,11 +56,12 @@ function addUpTo(array, index)
     array = array.slice(0, index + 1);
   }
 
-  if(array.length >= 1)
+  if(array.length == 0)
   {
-    console.log(array);
-    return array[array.length - 1] + addUpTo(array.slice(0, array.length - 1));
-  } else {
     return 0;
+    console.log(array);
+  } else {
+    return array[array.length - 1] + addUpTo(array.slice(0, array.length - 1));
+    
   }
 }
