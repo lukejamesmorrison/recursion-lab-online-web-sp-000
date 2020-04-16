@@ -47,7 +47,7 @@ function isPalindrome(str, index = 0) {
 }
 
 
-console.log(addUpTo([1, 4, 5, 3], 2));
+addUpTo([1, 4, 5, 3], 2);
 
 function addUpTo(array, index)
 {
