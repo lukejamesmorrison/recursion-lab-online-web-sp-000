@@ -49,7 +49,7 @@ function isPalindrome(str, index = 0) {
 
 addUpTo([1, 4, 5, 3], 2);
 
-function addUpTo(array, index = 0)
+function addUpTo(array, index)
 {
   console.log(array.length, index);
 
