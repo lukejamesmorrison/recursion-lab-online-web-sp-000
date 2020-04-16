@@ -53,11 +53,12 @@ function addUpTo(array, index)
 {
   if(array.length > index + 1)
   {
-    array = array.slice(0, index+1);
+    array = array.slice(0, index + 1);
   }
   
   console.log(array);
-  
+
+  return;
   
   if(array.length > 0)
   {
