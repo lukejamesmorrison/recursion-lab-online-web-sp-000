@@ -60,7 +60,7 @@ function addUpTo(array, index = 0)
   }
 
 
-  if(array.length === 0)
+  if(array.length > 0)
   {
     return 0;
 
