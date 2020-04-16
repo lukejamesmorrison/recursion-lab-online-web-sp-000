@@ -7,7 +7,7 @@ function printString(string, start = 0, end = 1)
 {
   var char = string.substring(start, end);
   console.log(char);
-  
+
   if(end < string.length)
   {
     printString(string, end, end+1);
@@ -17,12 +17,12 @@ function printString(string, start = 0, end = 1)
 }
 
 function reverseString(string, reversedString = ''){
-  
+
   if(string.length >= 1)
   {
     reversedString += string.slice(string.length - 1);
     return reverseString(
-      string.substring(0, string.length - 1), 
+      string.substring(0, string.length - 1),
       reversedString
     );
   } else {
@@ -34,7 +34,7 @@ function isPalindrome(str, index = 0) {
 
   var frontIndex = index;
   var rearIndex = str.length - 1 - index;
-  
+
   if (frontIndex == rearIndex || rearIndex - frontIndex == 1) {
     return true;
   } else {
@@ -55,11 +55,11 @@ function addUpTo(array, index)
   {
     array = array.slice(0, index + 1);
   }
-  
+
   console.log(array);
 
   return;
-  
+
   if(array.length > 0)
   {
     console.log(array[0]);
