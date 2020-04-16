@@ -56,7 +56,7 @@ function addUpTo(array, index)
     array = array.slice(0, index + 1);
   }
 
-  if(array.length == 0)
+  if(array.length === 0)
   {
     return 0;
 
